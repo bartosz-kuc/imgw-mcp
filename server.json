@@ -1,0 +1,18 @@
+{
+  "$schema": "https://modelcontextprotocol.io/schemas/server.json",
+  "name": "imgw-mcp",
+  "description": "Local MCP server for IMGW-PIB Polish weather, hydro data and warnings — no auth, no cloud middle.",
+  "repository": {
+    "url": "https://github.com/bartosz-kuc/imgw-mcp",
+    "source": "github"
+  },
+  "version": "0.1.0",
+  "packages": [
+    {
+      "registry_name": "pypi",
+      "name": "imgw-mcp",
+      "version": "0.1.0",
+      "runtime_hint": "uvx"
+    }
+  ]
+}
